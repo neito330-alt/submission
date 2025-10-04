@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8773bf517e2c8f545a7119ef58a3cfe4, type: 3}
+  m_Name: RoomBuildAssets
+  m_EditorClassIdentifier: 
+  defaultDoorPrefab: {fileID: 7548453182283582990, guid: b668bfeeab01efa478c3b9c65ec9e363, type: 3}
+  defaultDoorPrefab_Low: {fileID: 7548453182283582990, guid: 1f392a471cbb78f43b4747c051254189, type: 3}
+  doorPrefab: {fileID: 2017962784085443795, guid: 45d402c7467fc30428d844b2ab091917, type: 3}
+  defaultMaterial:
+    North_Right: {fileID: 2100000, guid: 5d2d27aa35c4d9a41ac3d9556d8344a8, type: 2}
+    North_Middle: {fileID: 2100000, guid: eb1ad94c7b3e8d14eac8161910d47d7a, type: 2}
+    North_Left: {fileID: 2100000, guid: 6006ba1d2daadf945bf63e755f229c03, type: 2}
+    West_Right: {fileID: 2100000, guid: 6df50222223051747a127a0505886d3f, type: 2}
+    West_Middle: {fileID: 2100000, guid: 822c27ef269491c4587d230f637b321b, type: 2}
+    West_Left: {fileID: 2100000, guid: e0c756a53bba4814cab35915768782c5, type: 2}
+    South_Right: {fileID: 2100000, guid: 3d58ffd2b36160545ae3c1d73e6c550d, type: 2}
+    South_Middle: {fileID: 2100000, guid: 94f163dc1ca38be419f1da9edb13af57, type: 2}
+    South_Left: {fileID: 2100000, guid: ef24d36393a8626409721ce9fbe297cb, type: 2}
+    East_Right: {fileID: 2100000, guid: f516e4f43651f1644936512e1cd60a63, type: 2}
+    East_Middle: {fileID: 2100000, guid: b29048d871561e144b5fe6238e22ea6d, type: 2}
+    East_Left: {fileID: 2100000, guid: 7c195405028bd8447a060108241691b8, type: 2}
+  panelMaterial:
+    Open: {fileID: 2100000, guid: 83bcead40a8c8c74ab330ae96f25cadd, type: 2}
+    Lock: {fileID: 2100000, guid: 0a0a7882c938b9241b55af25b8828202, type: 2}
+    Danger: {fileID: 2100000, guid: 47541f91a55f7824c9574e0312142fca, type: 2}
+    Red: {fileID: 2100000, guid: 8029494e2496aa84ba8591bcb4263702, type: 2}
+    Blue: {fileID: 2100000, guid: f7afcc87428f1ec49878ed895c79c43c, type: 2}
+    Green: {fileID: 2100000, guid: 530837f31c48b5940b5fa7efc3089e48, type: 2}
+    Yellow: {fileID: 2100000, guid: 66088e3039b706346bc44378a07c338e, type: 2}
+    Purple: {fileID: 2100000, guid: 449e9c9e58945224eae5653e12b4c92b, type: 2}
+    Orange: {fileID: 2100000, guid: c74da108f9555f94db761bdaa88bf580, type: 2}
+    Black: {fileID: 2100000, guid: 5afbc584b576c1f45b74a46fbbdafc11, type: 2}
+  wallMesh:
+    Top:
+      Wall_000: {fileID: -7264520787772085769, guid: c5fe2b5c2f068e94d9611efb73055442, type: 3}
+      Wall_001: {fileID: -3185044548645358335, guid: c5fe2b5c2f068e94d9611efb73055442, type: 3}
+      Wall_010: {fileID: -9014279568194677296, guid: c5fe2b5c2f068e94d9611efb73055442, type: 3}
+      Wall_011: {fileID: 5573875378770347968, guid: c5fe2b5c2f068e94d9611efb73055442, type: 3}
+      Wall_100: {fileID: -823488632818629546, guid: c5fe2b5c2f068e94d9611efb73055442, type: 3}
+      Wall_101: {fileID: 1783689266100520173, guid: c5fe2b5c2f068e94d9611efb73055442, type: 3}
+      Wall_110: {fileID: 3989282317499680096, guid: c5fe2b5c2f068e94d9611efb73055442, type: 3}
+      Wall_111: {fileID: 1127848939909620222, guid: c5fe2b5c2f068e94d9611efb73055442, type: 3}
+    Middle:
+      Wall_000: {fileID: 6039378643556685598, guid: c5fe2b5c2f068e94d9611efb73055442, type: 3}
+      Wall_001: {fileID: -528192362135539634, guid: c5fe2b5c2f068e94d9611efb73055442, type: 3}
+      Wall_010: {fileID: 77103085339291236, guid: c5fe2b5c2f068e94d9611efb73055442, type: 3}
+      Wall_011: {fileID: 5629920321895725330, guid: c5fe2b5c2f068e94d9611efb73055442, type: 3}
+      Wall_100: {fileID: -3121869610628204896, guid: c5fe2b5c2f068e94d9611efb73055442, type: 3}
+      Wall_101: {fileID: 4528523023184998384, guid: c5fe2b5c2f068e94d9611efb73055442, type: 3}
+      Wall_110: {fileID: 8483975505625975319, guid: c5fe2b5c2f068e94d9611efb73055442, type: 3}
+      Wall_111: {fileID: 8937426340774578778, guid: c5fe2b5c2f068e94d9611efb73055442, type: 3}
+    Bottom:
+      Wall_000: {fileID: 8540206415937812478, guid: c5fe2b5c2f068e94d9611efb73055442, type: 3}
+      Wall_001: {fileID: 5068927745268899665, guid: c5fe2b5c2f068e94d9611efb73055442, type: 3}
+      Wall_010: {fileID: 4804957397326799184, guid: c5fe2b5c2f068e94d9611efb73055442, type: 3}
+      Wall_011: {fileID: 1202988729354225018, guid: c5fe2b5c2f068e94d9611efb73055442, type: 3}
+      Wall_100: {fileID: -563355692273796189, guid: c5fe2b5c2f068e94d9611efb73055442, type: 3}
+      Wall_101: {fileID: -5413332249327369304, guid: c5fe2b5c2f068e94d9611efb73055442, type: 3}
+      Wall_110: {fileID: -5246139076103413186, guid: c5fe2b5c2f068e94d9611efb73055442, type: 3}
+      Wall_111: {fileID: -1009687439318542840, guid: c5fe2b5c2f068e94d9611efb73055442, type: 3}

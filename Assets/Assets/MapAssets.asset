@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: MapAssets
+  m_EditorClassIdentifier: Assembly-CSharp::MapAssets
+  decalMaterial: {fileID: -876546973899608171, guid: 013d3555f1995e740ae622f489d04463, type: 3}
+  decals:
+  - decalTexture: {fileID: 2800000, guid: c259aef4e31776d4f8726c4e6bf2f908, type: 3}
+    scale: 0.3
+  - decalTexture: {fileID: 2800000, guid: a5f259390c2d16249901ee378f33b37a, type: 3}
+    scale: 0.3
+  - decalTexture: {fileID: 2800000, guid: 3002f97d8295c8c45be3023a30a0ceda, type: 3}
+    scale: 0.3
+  - decalTexture: {fileID: 2800000, guid: 257a45d1d7ddff54da8795220fe683fc, type: 3}
+    scale: 0.3
+  - decalTexture: {fileID: 2800000, guid: 1cfcbc88769c9934c9afad681cb9f78a, type: 3}
+    scale: 0.3
+  _decalIndex: 0
+  decalColors:
+  - color: {r: 1, g: 0, b: 0, a: 1}
+    emission: 2
+  - color: {r: 1, g: 0.5570802, b: 0, a: 1}
+    emission: 2
+  - color: {r: 1, g: 0.9477787, b: 0, a: 1}
+    emission: 2
+  - color: {r: 0.3439603, g: 1, b: 0, a: 1}
+    emission: 2
+  - color: {r: 0, g: 0.98295045, b: 1, a: 1}
+    emission: 2
+  - color: {r: 0, g: 0.061501026, b: 1, a: 1}
+    emission: 2
+  - color: {r: 0.5435171, g: 0, b: 1, a: 1}
+    emission: 2
+  _decalColorIndex: 3

@@ -1,0 +1,575 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7441453810903935502
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6322431590872942188}
+  - component: {fileID: 1112062760036166473}
+  m_Layer: 0
+  m_Name: RoomSet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6322431590872942188
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7441453810903935502}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3844639778217491779}
+  - {fileID: 7226705456551648265}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1112062760036166473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7441453810903935502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de00af013f735514cb0ff2b692510115, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomThumb: {fileID: 2800000, guid: 8b07b06d8cdbe914fa2bce7dc9b5608b, type: 3}
+  roomThumbMaterial: {fileID: 2100000, guid: f6d8b69192fb677479aced4cbdb5146a, type: 2}
+  roomMode: 0
+  isBasement: 0
+  doorDataList:
+    rid: 2747805225038643238
+  _decalDataList:
+    list: []
+  _decalDataListInput:
+    list: []
+  roomBuildAssets: {fileID: 11400000, guid: 11b8f82d0d975244aa01bc9a769b1a48, type: 2}
+  panelAssets: {fileID: 11400000, guid: b5026b6436812184ca933e39ecf21d57, type: 2}
+  doorConfigData:
+    defaultDoorPrefab: {fileID: 0}
+    defaultDoorPrefab_Low: {fileID: 0}
+    defaultDoorMaterial: {fileID: 0}
+    defaultWallMaterial: {fileID: 0}
+  roomDataController: {fileID: 3394358392225237591}
+  panelDataController: {fileID: 8953388578891507091}
+  references:
+    version: 2
+    RefIds:
+    - rid: 2747805225038643238
+      type: {class: DoorDataList, ns: Rooms.Auto, asm: Assembly-CSharp}
+      data:
+        north:
+          top:
+            left:
+              isDoor: 0
+              doorData:
+                door: {fileID: 0}
+                level: 5
+                doorBodyMaterial: {fileID: 0}
+                wallMaterial: {fileID: 0}
+                doorLockList:
+                  _locks: []
+            middle:
+              isDoor: 0
+              doorData:
+                door: {fileID: 0}
+                level: 5
+                doorBodyMaterial: {fileID: 0}
+                wallMaterial: {fileID: 0}
+                doorLockList:
+                  _locks: []
+            right:
+              isDoor: 0
+              doorData:
+                door: {fileID: 0}
+                level: 5
+                doorBodyMaterial: {fileID: 0}
+                wallMaterial: {fileID: 0}
+                doorLockList:
+                  _locks: []
+          middle:
+            left:
+              isDoor: 0
+              doorData:
+                door: {fileID: 0}
+                level: 5
+                doorBodyMaterial: {fileID: 0}
+                wallMaterial: {fileID: 0}
+                doorLockList:
+                  _locks: []
+            middle:
+              isDoor: 0
+              doorData:
+                door: {fileID: 0}
+                level: 5
+                doorBodyMaterial: {fileID: 0}
+                wallMaterial: {fileID: 0}
+                doorLockList:
+                  _locks: []
+            right:
+              isDoor: 0
+              doorData:
+                door: {fileID: 0}
+                level: 5
+                doorBodyMaterial: {fileID: 0}
+                wallMaterial: {fileID: 0}
+                doorLockList:
+                  _locks: []
+          bottom:
+            left:
+              isDoor: 0
+              doorData:
+                door: {fileID: 0}
+                level: 5
+                doorBodyMaterial: {fileID: 0}
+                wallMaterial: {fileID: 0}
+                doorLockList:
+                  _locks: []
+            middle:
+              isDoor: 0
+              doorData:
+                door: {fileID: 0}
+                level: 5
+                doorBodyMaterial: {fileID: 0}
+                wallMaterial: {fileID: 0}
+                doorLockList:
+                  _locks: []
+            right:
+              isDoor: 0
+              doorData:
+                door: {fileID: 0}
+                level: 5
+                doorBodyMaterial: {fileID: 0}
+                wallMaterial: {fileID: 0}
+                doorLockList:
+                  _locks: []
+        east:
+          top:
+            left:
+              isDoor: 0
+              doorData:
+                door: {fileID: 0}
+                level: 5
+                doorBodyMaterial: {fileID: 0}
+                wallMaterial: {fileID: 0}
+                doorLockList:
+                  _locks: []
+            middle:
+              isDoor: 0
+              doorData:
+                door: {fileID: 0}
+                level: 5
+                doorBodyMaterial: {fileID: 0}
+                wallMaterial: {fileID: 0}
+                doorLockList:
+                  _locks: []
+            right:
+              isDoor: 0
+              doorData:
+                door: {fileID: 0}
+                level: 5
+                doorBodyMaterial: {fileID: 0}
+                wallMaterial: {fileID: 0}
+                doorLockList:
+                  _locks: []
+          middle:
+            left:
+              isDoor: 0
+              doorData:
+                door: {fileID: 0}
+                level: 5
+                doorBodyMaterial: {fileID: 0}
+                wallMaterial: {fileID: 0}
+                doorLockList:
+                  _locks: []
+            middle:
+              isDoor: 0
+              doorData:
+                door: {fileID: 0}
+                level: 5
+                doorBodyMaterial: {fileID: 0}
+                wallMaterial: {fileID: 0}
+                doorLockList:
+                  _locks: []
+            right:
+              isDoor: 0
+              doorData:
+                door: {fileID: 0}
+                level: 5
+                doorBodyMaterial: {fileID: 0}
+                wallMaterial: {fileID: 0}
+                doorLockList:
+                  _locks: []
+          bottom:
+            left:
+              isDoor: 0
+              doorData:
+                door: {fileID: 0}
+                level: 5
+                doorBodyMaterial: {fileID: 0}
+                wallMaterial: {fileID: 0}
+                doorLockList:
+                  _locks: []
+            middle:
+              isDoor: 0
+              doorData:
+                door: {fileID: 0}
+                level: 5
+                doorBodyMaterial: {fileID: 0}
+                wallMaterial: {fileID: 0}
+                doorLockList:
+                  _locks: []
+            right:
+              isDoor: 0
+              doorData:
+                door: {fileID: 0}
+                level: 5
+                doorBodyMaterial: {fileID: 0}
+                wallMaterial: {fileID: 0}
+                doorLockList:
+                  _locks: []
+        south:
+          top:
+            left:
+              isDoor: 0
+              doorData:
+                door: {fileID: 0}
+                level: 5
+                doorBodyMaterial: {fileID: 0}
+                wallMaterial: {fileID: 0}
+                doorLockList:
+                  _locks: []
+            middle:
+              isDoor: 0
+              doorData:
+                door: {fileID: 0}
+                level: 5
+                doorBodyMaterial: {fileID: 0}
+                wallMaterial: {fileID: 0}
+                doorLockList:
+                  _locks: []
+            right:
+              isDoor: 0
+              doorData:
+                door: {fileID: 0}
+                level: 5
+                doorBodyMaterial: {fileID: 0}
+                wallMaterial: {fileID: 0}
+                doorLockList:
+                  _locks: []
+          middle:
+            left:
+              isDoor: 0
+              doorData:
+                door: {fileID: 0}
+                level: 5
+                doorBodyMaterial: {fileID: 0}
+                wallMaterial: {fileID: 0}
+                doorLockList:
+                  _locks: []
+            middle:
+              isDoor: 0
+              doorData:
+                door: {fileID: 0}
+                level: 5
+                doorBodyMaterial: {fileID: 0}
+                wallMaterial: {fileID: 0}
+                doorLockList:
+                  _locks: []
+            right:
+              isDoor: 0
+              doorData:
+                door: {fileID: 0}
+                level: 5
+                doorBodyMaterial: {fileID: 0}
+                wallMaterial: {fileID: 0}
+                doorLockList:
+                  _locks: []
+          bottom:
+            left:
+              isDoor: 0
+              doorData:
+                door: {fileID: 0}
+                level: 5
+                doorBodyMaterial: {fileID: 0}
+                wallMaterial: {fileID: 0}
+                doorLockList:
+                  _locks: []
+            middle:
+              isDoor: 0
+              doorData:
+                door: {fileID: 0}
+                level: 5
+                doorBodyMaterial: {fileID: 0}
+                wallMaterial: {fileID: 0}
+                doorLockList:
+                  _locks: []
+            right:
+              isDoor: 0
+              doorData:
+                door: {fileID: 0}
+                level: 5
+                doorBodyMaterial: {fileID: 0}
+                wallMaterial: {fileID: 0}
+                doorLockList:
+                  _locks: []
+        west:
+          top:
+            left:
+              isDoor: 0
+              doorData:
+                door: {fileID: 0}
+                level: 5
+                doorBodyMaterial: {fileID: 0}
+                wallMaterial: {fileID: 0}
+                doorLockList:
+                  _locks: []
+            middle:
+              isDoor: 0
+              doorData:
+                door: {fileID: 0}
+                level: 5
+                doorBodyMaterial: {fileID: 0}
+                wallMaterial: {fileID: 0}
+                doorLockList:
+                  _locks: []
+            right:
+              isDoor: 0
+              doorData:
+                door: {fileID: 0}
+                level: 5
+                doorBodyMaterial: {fileID: 0}
+                wallMaterial: {fileID: 0}
+                doorLockList:
+                  _locks: []
+          middle:
+            left:
+              isDoor: 0
+              doorData:
+                door: {fileID: 0}
+                level: 5
+                doorBodyMaterial: {fileID: 0}
+                wallMaterial: {fileID: 0}
+                doorLockList:
+                  _locks: []
+            middle:
+              isDoor: 0
+              doorData:
+                door: {fileID: 0}
+                level: 5
+                doorBodyMaterial: {fileID: 0}
+                wallMaterial: {fileID: 0}
+                doorLockList:
+                  _locks: []
+            right:
+              isDoor: 0
+              doorData:
+                door: {fileID: 0}
+                level: 5
+                doorBodyMaterial: {fileID: 0}
+                wallMaterial: {fileID: 0}
+                doorLockList:
+                  _locks: []
+          bottom:
+            left:
+              isDoor: 0
+              doorData:
+                door: {fileID: 0}
+                level: 5
+                doorBodyMaterial: {fileID: 0}
+                wallMaterial: {fileID: 0}
+                doorLockList:
+                  _locks: []
+            middle:
+              isDoor: 0
+              doorData:
+                door: {fileID: 0}
+                level: 5
+                doorBodyMaterial: {fileID: 0}
+                wallMaterial: {fileID: 0}
+                doorLockList:
+                  _locks: []
+            right:
+              isDoor: 0
+              doorData:
+                door: {fileID: 0}
+                level: 5
+                doorBodyMaterial: {fileID: 0}
+                wallMaterial: {fileID: 0}
+                doorLockList:
+                  _locks: []
+--- !u!1001 &2696945890292352236
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6322431590872942188}
+    m_Modifications:
+    - target: {fileID: 394071973742078788, guid: 8ae8da120c7a00e4991b46919800e1c8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 760747009713307544, guid: 8ae8da120c7a00e4991b46919800e1c8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1168576890796915119, guid: 8ae8da120c7a00e4991b46919800e1c8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1168576890796915119, guid: 8ae8da120c7a00e4991b46919800e1c8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1168576890796915119, guid: 8ae8da120c7a00e4991b46919800e1c8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1168576890796915119, guid: 8ae8da120c7a00e4991b46919800e1c8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1168576890796915119, guid: 8ae8da120c7a00e4991b46919800e1c8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1168576890796915119, guid: 8ae8da120c7a00e4991b46919800e1c8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1168576890796915119, guid: 8ae8da120c7a00e4991b46919800e1c8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1168576890796915119, guid: 8ae8da120c7a00e4991b46919800e1c8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1168576890796915119, guid: 8ae8da120c7a00e4991b46919800e1c8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1168576890796915119, guid: 8ae8da120c7a00e4991b46919800e1c8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3448758168893995655, guid: 8ae8da120c7a00e4991b46919800e1c8, type: 3}
+      propertyPath: m_Name
+      value: Room
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618424956291100059, guid: 8ae8da120c7a00e4991b46919800e1c8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203340829918359809, guid: 8ae8da120c7a00e4991b46919800e1c8, type: 3}
+      propertyPath: _lightState
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8ae8da120c7a00e4991b46919800e1c8, type: 3}
+--- !u!114 &3394358392225237591 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 753885674295316155, guid: 8ae8da120c7a00e4991b46919800e1c8, type: 3}
+  m_PrefabInstance: {fileID: 2696945890292352236}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 126b07d791001514397613da256299be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &3844639778217491779 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1168576890796915119, guid: 8ae8da120c7a00e4991b46919800e1c8, type: 3}
+  m_PrefabInstance: {fileID: 2696945890292352236}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3410426189298957191
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6322431590872942188}
+    m_Modifications:
+    - target: {fileID: 5412815334169716622, guid: 360694a6a79bbc142a19c7ad212b08ed, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5412815334169716622, guid: 360694a6a79bbc142a19c7ad212b08ed, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5412815334169716622, guid: 360694a6a79bbc142a19c7ad212b08ed, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5412815334169716622, guid: 360694a6a79bbc142a19c7ad212b08ed, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5412815334169716622, guid: 360694a6a79bbc142a19c7ad212b08ed, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5412815334169716622, guid: 360694a6a79bbc142a19c7ad212b08ed, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5412815334169716622, guid: 360694a6a79bbc142a19c7ad212b08ed, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5412815334169716622, guid: 360694a6a79bbc142a19c7ad212b08ed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5412815334169716622, guid: 360694a6a79bbc142a19c7ad212b08ed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5412815334169716622, guid: 360694a6a79bbc142a19c7ad212b08ed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8998183555338513626, guid: 360694a6a79bbc142a19c7ad212b08ed, type: 3}
+      propertyPath: m_Name
+      value: Panel
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 360694a6a79bbc142a19c7ad212b08ed, type: 3}
+--- !u!4 &7226705456551648265 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5412815334169716622, guid: 360694a6a79bbc142a19c7ad212b08ed, type: 3}
+  m_PrefabInstance: {fileID: 3410426189298957191}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8953388578891507091 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5986576885302451732, guid: 360694a6a79bbc142a19c7ad212b08ed, type: 3}
+  m_PrefabInstance: {fileID: 3410426189298957191}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a73ad737d9e2ba449a7ed95e49e923f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

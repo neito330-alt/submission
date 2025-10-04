@@ -1,0 +1,54 @@
+<linker>
+  <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="DoorEventHandler" preserve="all" />
+    <type fullname="InteractiveDoor" preserve="all" />
+    <type fullname="Rooms.Auto.RoomBuildAssets" preserve="all" />
+    <type fullname="Rooms.DoorSystem.DoorController" preserve="all" />
+    <type fullname="Rooms.PanelSystem.PanelAssets" preserve="all" />
+    <type fullname="InteractiveDoor/DoorBodyData" preserve="nothing" serialized="true" />
+    <type fullname="InteractiveDoor/DoorKeyHoleData" preserve="nothing" serialized="true" />
+    <type fullname="Rooms.Auto.DefaultMaterial" preserve="nothing" serialized="true" />
+    <type fullname="Rooms.Auto.VerticalWallMesh" preserve="nothing" serialized="true" />
+    <type fullname="Rooms.Auto.VerticalWallMesh/HorizontalWallMesh" preserve="nothing" serialized="true" />
+    <type fullname="Rooms.DoorSystem.DoorLockDataList" preserve="nothing" serialized="true" />
+    <type fullname="Rooms.PanelSystem.FramePrefab" preserve="nothing" serialized="true" />
+    <type fullname="Rooms.PanelSystem.PanelCornerMaterial" preserve="nothing" serialized="true" />
+    <type fullname="Rooms.PanelSystem.PanelDoorMaterial" preserve="nothing" serialized="true" />
+    <type fullname="Rooms.PanelSystem.PanelSound" preserve="nothing" serialized="true" />
+    <type fullname="Rooms.PanelSystem.PanelSystemMaterials" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.LegacyResourcesProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AnimationClip" preserve="all" />
+    <type fullname="UnityEngine.Animator" preserve="all" />
+    <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AudioClip" preserve="all" />
+    <type fullname="UnityEngine.AudioSource" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.GameObject" preserve="all" />
+    <type fullname="UnityEngine.Material" preserve="all" />
+    <type fullname="UnityEngine.Mesh" preserve="all" />
+    <type fullname="UnityEngine.MeshFilter" preserve="all" />
+    <type fullname="UnityEngine.MeshRenderer" preserve="all" />
+    <type fullname="UnityEngine.Object" preserve="all" />
+    <type fullname="UnityEngine.Shader" preserve="all" />
+    <type fullname="UnityEngine.SkinnedMeshRenderer" preserve="all" />
+    <type fullname="UnityEngine.Texture2D" preserve="all" />
+    <type fullname="UnityEngine.Transform" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.BoxCollider" preserve="all" />
+  </assembly>
+</linker>

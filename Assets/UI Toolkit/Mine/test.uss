@@ -1,0 +1,15 @@
+.unity-text-input {
+    padding-right: 0;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+}
+
+.unity-text-field {
+    width: 200px;
+}
+
+.unity-drag-container {
+    width: auto;
+}

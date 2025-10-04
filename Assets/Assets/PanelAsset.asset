@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a116fecec14cca48b5feb6fd682f59c, type: 3}
+  m_Name: PanelAsset
+  m_EditorClassIdentifier: 
+  systemMaterials:
+    cursorMaterial: {fileID: -876546973899608171, guid: 4e5571bac39cea649adf267be7d079c2, type: 3}
+    hologramMaterial: {fileID: -876546973899608171, guid: fe1c14510777bc7419b7835a8c812fa9, type: 3}
+    glowMaterial: {fileID: -876546973899608171, guid: 574e7235175495347bef3ea245018b60, type: 3}
+  cornerMaterial:
+    Normal: {fileID: 2100000, guid: 3cf9f44c6a250c946a5c4997b112e6ec, type: 2}
+    Static: {fileID: 2100000, guid: d68d5bcce0155ed48a1abcd14981b5b8, type: 2}
+    Rotate: {fileID: 2100000, guid: cba09337dae8acf4696747c89500662f, type: 2}
+  doorMaterial:
+    Open: {fileID: 2100000, guid: 83bcead40a8c8c74ab330ae96f25cadd, type: 2}
+    Lock: {fileID: 2100000, guid: 359c4e247c3bc9c469a5190cc243f4d0, type: 2}
+    Key: {fileID: 2100000, guid: 0a0a7882c938b9241b55af25b8828202, type: 2}
+    Danger: {fileID: 2100000, guid: 47541f91a55f7824c9574e0312142fca, type: 2}
+    Red: {fileID: 2100000, guid: 8029494e2496aa84ba8591bcb4263702, type: 2}
+    Blue: {fileID: 2100000, guid: f7afcc87428f1ec49878ed895c79c43c, type: 2}
+    Green: {fileID: 2100000, guid: 530837f31c48b5940b5fa7efc3089e48, type: 2}
+    Yellow: {fileID: 2100000, guid: 66088e3039b706346bc44378a07c338e, type: 2}
+    Purple: {fileID: 2100000, guid: 449e9c9e58945224eae5653e12b4c92b, type: 2}
+    Orange: {fileID: 2100000, guid: c74da108f9555f94db761bdaa88bf580, type: 2}
+    Black: {fileID: 2100000, guid: 5afbc584b576c1f45b74a46fbbdafc11, type: 2}
+  framePrefab:
+    frameSide: {fileID: 8116987255683704584, guid: 53633ef3e3f557b4597496b41c80296b, type: 3}
+    frameCorner: {fileID: 1983845240454417666, guid: c9df39d91cda57244906eb768dede66b, type: 3}
+    slotNormal: {fileID: 9119814614572817188, guid: 3e2dce3c4099b6f46ae3ba6c1a2571f3, type: 3}
+    slotVoid: {fileID: 6586350854790508614, guid: 73f8fa43aa54d4f48898943ce95e3ece, type: 3}
+  panelSound:
+    pickSound: {fileID: 8300000, guid: 8f035c38f4beeb741b035d7f8112b117, type: 3}
+    placeSound: {fileID: 8300000, guid: 8f035c38f4beeb741b035d7f8112b117, type: 3}
+    rotateSound: {fileID: 8300000, guid: 8f035c38f4beeb741b035d7f8112b117, type: 3}
+    moveSound: {fileID: 8300000, guid: 8f035c38f4beeb741b035d7f8112b117, type: 3}
+    stopSound: {fileID: 8300000, guid: 65828fdb6d321db4d89f7e55067a45a8, type: 3}
+    errorSound: {fileID: 8300000, guid: c661ac9a8e518cb4b80748a944568282, type: 3}
+    enterSound: {fileID: 8300000, guid: af2c05b07e7c18648a6bbf575b44d5c2, type: 3}
+    exitSound: {fileID: 8300000, guid: e924b7ed2e0aba341bee9cb284bebd1c, type: 3}
